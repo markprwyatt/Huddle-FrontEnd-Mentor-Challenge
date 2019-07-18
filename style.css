@@ -54,4 +54,38 @@ body {
   padding: 0.7rem;
   width: 1rem;
   height: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .logo img {
+    max-width: 30vw;
+  }
+
+  .logo {
+    margin-left: 1rem;
+  }
+
+  .screen-image {
+    width: 70vw;
+    margin: 2rem auto;
+    display: block;
+  }
+
+  .info {
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    text-align: center;
+  }
+
+  .button {
+    font-size: 0.6rem;
+    width: 10rem;
+  }
+
+  .links {
+    justify-content: center;
+    margin: 0;
+  }
 }
